@@ -1,0 +1,35 @@
+.app-wrapper {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+
+  color: var(--base-dark);
+  background-color: var(--base);
+  height: 100%;
+  width: 100%;
+  padding: 40px 0 0 0;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.app-header a {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.app-header button {
+  margin: 0 0 0 25px;
+  background-color: var(--base);
+  padding: 4px 8px;
+  border: none;
+}
+
+.app-header button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.app-header button:focus {
+  outline: 0;
+}
